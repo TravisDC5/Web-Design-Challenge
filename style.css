@@ -51,8 +51,8 @@ body {
     
   }
   .vizualization {
-    width:60%;
-    height:75%;
+    width:40%;
+    height:50%;
   }
   
   .title {
@@ -77,17 +77,13 @@ body {
   
   }
   
-  .table {
-    font-size: 15px;
-    border-top-color: rgb(255, 255, 255);
-  }
-  
+
   footer {
 
-    background-color: rgb(1, 138, 138);
+    background-color: rgb(66, 66, 66);
     border-top-style: solid;
     border-top-width: 5px;
-    border-top-color: rgb(255, 255, 255);
+    border-top-color: rgb(1, 138, 138);
     color: rgb(255, 255, 255);
     min-height: 55px;
     font-family: Arial, Tahoma, sans-serif;
@@ -100,7 +96,7 @@ body {
     padding-top: 15px;
     }
   
-  @media(max-width: 992px) {
+  @media(max-width: 600px) {
     .navbar-expand-lg {
     background-color: #000000;
     }
@@ -118,6 +114,7 @@ body {
     button{
       margin-right: 30px;
     }
+   
     button:focus {
       outline: 1px dotted;
       outline: auto 5px;
