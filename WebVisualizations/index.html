@@ -25,31 +25,46 @@
                             PLOTS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="">Max Temperature</a>
-                            <a class="dropdown-item" href="">Humidity</a>
-                            <a class="dropdown-item" href="">Cloudiness</a>
-                            <a class="dropdown-item" href="">Wind Speed</a>
+                            <a class="dropdown-item" href="maxTemp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
                             <a class="dropdown-item" href="https://github.com/TravisDC5/Web-Design-Challenge">Repository</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">COMPARISON</a>
+                        <a class="nav-link" href="compare.html">COMPARISON</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">DATA</a>
+                        <a class="nav-link" href="data.html">DATA</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="container">
+    <div class="container-lg">
         <div class="row">
             <div class = "col-lg-7 col-lg-7"> 
                 <div class="box" style="padding-bottom: 15px;">
                     <h3 class="title">SUMMARY: LATITUDE VS. X</h3>
                     <hr>
                     <img src="Images/maxTemperature.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p>The purpose of this project was to analyze </p>
+                    <p>
+                        The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a 
+                        dataset on over 500 cities.
+                    </p>
+                        <br>
+                    <p> 
+                        Matplotlib was used to build a series of plots to showcase the relationships regarding several variables
+                        of weather vs. latitude. Relationships analyzed included: Temperature (F) vs. Latitude, Humidity (%) vs. Latitude,
+                        Cloudiness (%) vs. Latitude, and Wind Speed (mph) vs. Latitude.
+                    </p>
+                        <br>
+                      <p> 
+                        Data and visualizations are provided as part of the analysis, including explanations and descriptions
+                        of trends and correlations.
+                    </p>
                 </div>
             </div>
             <div class = "col-md-5 col-md-5">
@@ -60,14 +75,14 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">
-                                <a href="WebVisualizations/maxTemp.html">
+                                <a href="maxTemp.html">
                                 <img class="panel" src="Images/maxTemperature.png" alt="Max Temperature Graph">
                                 </a>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="title">
-                                <a href="">
+                                <a href="humidity.html">
                                 <img class="panel" src="Images/humidity.png" alt="Humidity Graph">
                                 </a>
                                 </div>
@@ -76,14 +91,14 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">
-                                <a href="">
+                                <a href="clouds.html">
                                 <img class="panel" src="Images/clouds.png" alt="Cloudiness Graph">
                                 </a>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="title">
-                                <a href="WebVisualizations/wind.html">
+                                <a href="wind.html">
                                     <img class="panel" src="Images/wind.png" alt="Wind Speed Graph">
                                 </a>
                                 </div>
