@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+
     <title>Maximum Temperature</title>
 </head>
 <body>
@@ -42,7 +42,56 @@
             </div>
         </nav>
     </div>
-
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="box">
+                    <h3 class="title">LATITIDE VS. MAX TEMPERATURE</h3>
+                    <hr>
+                    <img src="Images/maxTemperature.png" class="float-center" alt="Cloudiness">
+                    <p>
+                       Observing the data, at the equator (0 lattitude),
+                       shows the highest temperature values in a condensed cluster,
+                       this being the cities closest to the equator; while the latitude 
+                       increases in both directions the temp values decrease,
+                       these being the values for the cities increasing in distance from the equator.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="box">
+                    <h3 class="title">VISUALIZATIONS</h3>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 70px;">
+                            <div class="col-6">
+                                <a href="maxTemp.html">
+                                  <img class="panel" src="Images/maxTemperature.png" alt="Max Temperature Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="humidity.html">
+                                    <img class="panel" src="Images/humidity.png" alt="Humidity Graph">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 70px;">
+                            <div class="col-6">
+                                <a href="clouds.html">
+                                    <img class="panel" src="Images/clouds.png" alt="Cloudiness Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="wind.html">
+                                    <img class="panel" src="Images/wind.png" alt="Wind Speed Graph">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer> Web Design Challenge - Travis Christensen </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
