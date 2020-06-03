@@ -8,6 +8,8 @@ htmlData = data_df.to_html()
 #print(htmlData)
 
 data_df.to_html('table.html')
+
+#This will populate the existing data.html file with the table
 #text_file = open("data.html", "w")
 #text_file.write(htmlData)
 #text_file.close()
